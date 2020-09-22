@@ -36,8 +36,7 @@ public class DecoyDuck extends Duck{
 
     @Override
     public void display() {
-        // TODO Auto-generated method stub
-        System.out.println("Inside Display Duck name " + _name );
+          System.out.println("Inside Display Duck name " + _name );
     }
 
 }
