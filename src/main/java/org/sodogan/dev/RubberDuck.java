@@ -19,8 +19,7 @@ public class RubberDuck extends Duck
     @Override
     public String getName()
     {
-        // TODO Auto-generated method stub
-        return _name;
+       return _name;
     }
 
     private void setName(String newName)
@@ -34,7 +33,6 @@ public class RubberDuck extends Duck
         System.out.println("This Duck : " + _name + " is not flying");
     }
 
-    ;
 
     @Override
     public void quack()

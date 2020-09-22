@@ -25,6 +25,7 @@ public abstract class Duck {
     public void swim() {
         System.out.println("Inside Quack Duck : " + _name + " is swimming");
     }
+
     public abstract String getName();
 
     public abstract void display();

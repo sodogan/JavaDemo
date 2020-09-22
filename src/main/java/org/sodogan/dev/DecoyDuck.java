@@ -12,13 +12,11 @@ public class DecoyDuck extends Duck{
     public DecoyDuck() {
         super();
         setName("Decoy Duck");
-        // TODO Auto-generated constructor stub
     }
 
     @Override
     public String getName() {
-        // TODO Auto-generated method stub
-        return _name;
+         return _name;
     }
 
     private void setName(String newName)
@@ -40,7 +38,6 @@ public class DecoyDuck extends Duck{
     public void display() {
         // TODO Auto-generated method stub
         System.out.println("Inside Display Duck name " + _name );
-
     }
 
 }
