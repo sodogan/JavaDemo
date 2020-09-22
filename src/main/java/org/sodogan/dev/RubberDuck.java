@@ -7,16 +7,18 @@ package org.sodogan.dev;
  * @author User
  *
  */
-public class RubberDuck extends Duck{
+public class RubberDuck extends Duck
+{
 
-    public RubberDuck() {
+    public RubberDuck()
+    {
         super();
         setName("Rubber Duck");
-        // TODO Auto-generated constructor stub
     }
 
     @Override
-    public String getName() {
+    public String getName()
+    {
         // TODO Auto-generated method stub
         return _name;
     }
@@ -27,19 +29,24 @@ public class RubberDuck extends Duck{
     }
 
     @Override
-    public void fly() {
+    public void fly()
+    {
         System.out.println("This Duck : " + _name + " is not flying");
-    };
+    }
+
+    ;
 
     @Override
-    public void quack() {
+    public void quack()
+    {
         System.out.println("This Quack Duck : " + _name + " is not quacking");
     }
 
     @Override
-    public void display() {
+    public void display()
+    {
         // TODO Auto-generated method stub
-        System.out.println("Inside Display Duck name " + _name );
+        System.out.println("Inside Display Duck name " + _name);
 
     }
 
