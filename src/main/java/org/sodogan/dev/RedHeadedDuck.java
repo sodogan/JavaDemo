@@ -5,12 +5,10 @@ public class RedHeadedDuck extends Duck {
     public RedHeadedDuck() {
         super();
         setName("Red Head Duck");
-        // TODO Auto-generated constructor stub
     }
 
     @Override
     public String getName() {
-        // TODO Auto-generated method stub
         return _name;
     }
 
@@ -21,7 +19,6 @@ public class RedHeadedDuck extends Duck {
 
     @Override
     public void display() {
-        // TODO Auto-generated method stub
         System.out.println("Inside Display Duck name " + _name );
 
     }

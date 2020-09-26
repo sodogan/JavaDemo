@@ -30,14 +30,14 @@ public class RubberDuck extends Duck
     @Override
     public void fly()
     {
-        System.out.println("This Duck : " + _name + " is not flying");
+        System.out.println("This Duck : " + _name + " is flying");
     }
 
 
     @Override
     public void quack()
     {
-        System.out.println("This Quack Duck : " + _name + " is not quacking");
+        System.out.println("This Quack Duck : " + _name + " is  quacking");
     }
 
     @Override
