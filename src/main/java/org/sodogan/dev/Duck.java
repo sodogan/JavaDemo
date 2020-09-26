@@ -4,7 +4,7 @@
 package org.sodogan.dev;
 
 /**
- * @author User
+ * @author Solen Dogan
  *
  */
 public abstract class Duck {
